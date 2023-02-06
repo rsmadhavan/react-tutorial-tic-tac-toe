@@ -57,10 +57,6 @@ const moves = history.map((squares, move) => {
   });
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f37284c-674e-4807-b9eb-430199848dab/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2db89a72-b447-401e-a136-a0baf8b75e1d/Untitled.png)
-
 ### 2. U**se loop to create the board and return as a component**
 
 Create the entire board and store it in a variable and return only that variable instead of returning each row multiple times. First loop is to store each row. Second loop is for creating the row.
@@ -140,8 +136,6 @@ let squareNumber = 3 * i + j;
 	background:red;
 }
 ```
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7895ce2f-1d04-4934-92df-2cc6cd2adc6e/Untitled.png)
 
 ### 5. **********Display the row and col of each square that is moved in the history list**********
 
